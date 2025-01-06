@@ -132,19 +132,23 @@ Now I will filter to only show SSH (Secure Shell) traffic by typing SSH into the
 <br />
 <br />
 I can type commands like pwd (print working directory) and observe the traffic:  <br/>
-<img src="https://i.imgur.com/Corgjvn.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+<img src="https://github.com/user-attachments/assets/2559eee9-d225-47fe-bb90-3b94f68a5e73" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
 After filtering for DHCP (Dynamic Host Configuration Protocol) traffic, I attempted to get a new IP address by using the ipconfig /renew command:  <br/>
-<img src="https://i.imgur.com/Zq7X1Zv.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+<img src="https://github.com/user-attachments/assets/4727d7ac-eb0e-480e-bc82-57ae630057e4" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
 Filtering for DNS (Domain Name System) traffic, I can use nslookup to find IP addresses for domain names like "www.google.com" and "www.amazon.com":  <br/>
-<img src="https://i.imgur.com/3cGR7xZ.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+<img src="https://github.com/user-attachments/assets/4406ace5-f5ad-4240-acd3-3296c729e563" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
-Finally, I'll observe RDP (Remote Desktop Protocol) traffic by typing "tcp.port == 3389" in the top bar. You'll notice there is traffic happening without us doing anything. This is because I used RDP to connect to this machine from my own computer and RDP shows us a constant live stream of what is happening:  <br/>
-<img src="https://i.imgur.com/0eQAkky.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+Finally, I'll observe RDP (Remote Desktop Protocol) traffic by typing "tcp.port == 3389" in the top bar. You'll notice there is traffic happening without us doing anything. This is because I used RDP to connect to this machine from my computer, and RDP shows us a constant live stream of what is happening:  <br/>
+<img src="https://github.com/user-attachments/assets/43bd0435-96cf-4ccf-b243-8a060d12eae3" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
 </p>

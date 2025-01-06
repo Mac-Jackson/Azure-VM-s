@@ -30,7 +30,8 @@ The project consists of creating two virtual machines and a network where I moni
 
 <p align="center">
 Navigate to Microsoft Azure and create a resource group: <br/>
-<img src="https://i.imgur.com/Nq0B5A5.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+<img src="https://github.com/user-attachments/assets/df6affb1-2689-4e50-868f-6af240022613" height="80%" width="80%"/> 
+
 <br />
 <br />
 Once my resource group is created, next I'll create the first virtual machine:  <br/>

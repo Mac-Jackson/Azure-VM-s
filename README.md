@@ -1,5 +1,6 @@
-.<p align="center">
-<img src="https://i.imgur.com/VvEfgCC.jpeg" height="80%" width="80%" alt="Setting Up in Azure"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d630ac9b-d82f-47cc-82fa-044d1afb1bb0"/> 
+
 <br />
 
 <h1>Azure Virtual Machines and Networking</h1>
@@ -7,7 +8,7 @@
  
 
 <h2>Description</h2>
-Project consists of creating two virtual machines and a network where I monitor network traffic with software called Wireshark. This is all done within Microsoft Azure. 
+The project consists of creating two virtual machines and a network where I monitor network traffic with Wireshark software. This is all done within Microsoft Azure. 
 <br />
 
 

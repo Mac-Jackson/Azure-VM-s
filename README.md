@@ -117,15 +117,18 @@ Going back to our VM, we can see that the ICMP echo requests aren't getting any 
 <br />
 <br />
 To revert the change, I can either switch the inbound rule to "Allow" instead of "Deny" or delete the rule:  <br/>
-<img src="https://i.imgur.com/4tetl2l.png" height="80%" width="80%" alt="Setting Up in Azure"/> 
+<img src="https://github.com/user-attachments/assets/9e991b7f-00dd-46b3-a375-f614ee629bb4" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
 Now ICMP echo requests are back to getting responses:  <br/>
-<img src="https://i.imgur.com/FPXmXdY.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+<img src="https://github.com/user-attachments/assets/5e9a9a38-d81e-40b7-9ef3-1253c854cb3b" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
 Now I will filter to only show SSH (Secure Shell) traffic by typing SSH into the bar at the top, and I will SSH into VM2 using PowerShell:  <br/>
-<img src="https://i.imgur.com/blrFX07.png" height="80%" width="80%" alt="Setting Up in Azure"/>
+<img src="https://github.com/user-attachments/assets/e103c14f-89ae-452d-85b2-e51e156d22a0" height="80%" width="80%" alt="Setting Up in Azure"/> 
+
 <br />
 <br />
 I can type commands like pwd (print working directory) and observe the traffic:  <br/>
@@ -140,7 +143,7 @@ Filtering for DNS (Domain Name System) traffic, I can use nslookup to find IP ad
 <img src="https://i.imgur.com/3cGR7xZ.png" height="80%" width="80%" alt="Setting Up in Azure"/>
 <br />
 <br />
-Finally, I'll observe RDP (Remote Desktop Protocol) traffic by typing in "tcp.port == 3389" in the top bar. You'll notice there is traffic happening without us doing anything. This is because I used RDP to connect to this machine from my own computer and RDP shows us a constant live stream of whats happening:  <br/>
+Finally, I'll observe RDP (Remote Desktop Protocol) traffic by typing "tcp.port == 3389" in the top bar. You'll notice there is traffic happening without us doing anything. This is because I used RDP to connect to this machine from my own computer and RDP shows us a constant live stream of what is happening:  <br/>
 <img src="https://i.imgur.com/0eQAkky.png" height="80%" width="80%" alt="Setting Up in Azure"/>
 <br />
 <br />
